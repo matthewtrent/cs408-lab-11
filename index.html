@@ -7,7 +7,7 @@
     <title>Test AWS Lambda</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -22,10 +22,10 @@
     <script>
         document.getElementById("send-data").onclick = function () {
             let xhr = new XMLHttpRequest();
-            xhr.open("PUT", "Your Lambda here");
+            xhr.open("PUT", "https://wa61ootuak.execute-api.us-east-2.amazonaws.com/items");
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(JSON.stringify({
-                "id": "6666666",
+                "id": "11111",
                 "price": 19,
                 "name": "test put value"
             }));
@@ -41,7 +41,7 @@
             xhr.addEventListener("load", function () {
                 lambda.innerHTML = xhr.response;
             });
-            xhr.open("GET", "Your Lambda here");
+            xhr.open("GET", "https://wa61ootuak.execute-api.us-east-2.amazonaws.com/items");
             xhr.send();
         }
 
@@ -53,7 +53,7 @@
     <script>
         document.getElementById("delete-data").onclick = function () {
             let xhr = new XMLHttpRequest();
-            xhr.open("DELETE", "Your Lambda here");
+            xhr.open("DELETE", "https://wa61ootuak.execute-api.us-east-2.amazonaws.com/items/11111");
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send();
         }
