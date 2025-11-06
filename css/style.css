@@ -1,4 +1,73 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  border: none;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#db_table {
+  width: 100%;
+  border-collapse: collapse; /* Make sure borders are single lines */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+
+  border: 1px solid lightgrey;
+}
+
+th {
+  background-color: lightgrey;
+  padding: 8px;
+  font-weight: bold;
+}
+
+td {
+    padding: 8px;
+}
+
+.item_add {
+  padding: 15px;
+  border: 1px solid;
+  width: 100%;
+  outline: 2px solid black;
+}
+
+.item_add h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.item_add_content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item_add button {
+  padding: 8px 15px;
 }

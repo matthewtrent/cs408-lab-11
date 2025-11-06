@@ -1,24 +1,22 @@
-# Web Dev Starter Code
+# M11.2 Lab
 
 ## Overview
 
-TODO: Write a project description
+Create a basic website that allows the user to easily submit, load and delete entries from an AWS server.
+
+## How to Run
+
+1) Clone The Repository
+2) Load the repository into VSCode
+3) Using the VSCode Live Preview Extension, launch a preview server
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- https://www.w3schools.com/cssref/pr_outline.php
+- https://www.w3schools.com/css/css_grid.asp#
+- https://www.w3schools.com/css/css_table.asp
+- https://www.w3schools.com/jsref/met_table_insertrow.asp
+- https://stackoverflow.com/questions/56605620/i-want-to-know-the-value-of-the-button-i-pressed-in-a-table
+- Google Search AI for how to change the xhr.response into a JSON object
+- https://www.w3schools.com/Jsref/met_table_deleterow.asp
+- Google Gemini helped with CSS
